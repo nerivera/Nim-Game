@@ -5,7 +5,7 @@ import java.lang.Math;
  
 public class Nim {
 	
-    public static int stones = 3; // for isValid to operate on difString
+    public static int stones = 3; // for isValidEntry to operate on difString
 	
     public static boolean isValidEntry(String n) {
         return "123".contains(n) && n.length() == 1 && Integer.parseInt(n) <= stones;
